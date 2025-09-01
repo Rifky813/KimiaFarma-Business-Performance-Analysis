@@ -56,6 +56,12 @@ END AS persentase_gross_laba
 ---
 
 ## 📊 Dashboard Performance Analytics
+<img width="1148" height="1199" alt="Screenshot 2025-08-28 100931" src="https://github.com/user-attachments/assets/f6a6f0a2-c685-4180-adba-f45442934eef" />
+
+
+---
+
+## 🔍 **Insights Deep Dive**
 ### 🔹 **Sales & Transactions**
 
 - Penjualan: ±Rp321 miliar
@@ -87,18 +93,15 @@ Pertumbuhan penjualan didorong oleh jumlah transaksi, bukan nilai per transaksi.
 
 ---
 
-## 🔍 **Insights Deep Dive**
-
-1) Tingkatkan pengalaman checkout → kurangi antrean, tambah opsi pembayaran, perjelas label harga/diskon.
-2) Pastikan ketersediaan produk unggulan → stok produk laku harus terjamin, bundling produk jarang laku.
-3) Uji skema diskon terbatas → gunakan hanya yang terbukti meningkatkan penjualan tanpa menekan margin.
-4) Replikasi praktik terbaik cabang top → mulai dari Jawa Barat lalu scale-up ke wilayah lain.
-
----
-
 ## 💡 **Business Recommendations**
 
-- Optimalkan pengalaman transaksi pelanggan
-- Kelola portofolio produk secara strategis
-- Terapkan kebijakan diskon berbasis data
-- Fokus ekspansi wilayah Indonesia Timur
+1) Tingkatkan pengalaman checkout
+   - Kurangi antrean dengan **menambah jalur pembayaran**, sediakan opsi pembayaran **digital/e-wallet**, serta buat **label harga & diskon lebih jelas** di cabang bertransaksi tinggi seperti **Jawa Barat** dan **Sumatera Utara**.
+2) Pastikan ketersediaan produk unggulan 
+   - Jaga ketersediaan produk **KF519** di cabang utama dan **tampilkan di posisi strategis**. 
+Produk dengan penjualan rendah seperti **KF451** sebaiknya **dibundel** dalam **promo sederhana** atau dihentikan bila tidak menguntungkan.
+3) Uji skema diskon terbatas 
+   - **Diskon besar** (>20%) **tidak meningkatkan margin**, yang tetap di sekitar 28%.
+Gunakan **diskon moderat** (10–15%) untuk kategori harga **Rp100.000–Rp300.000** di **cabang utama** (contoh Bandung, Medan) agar penjualan meningkat tanpa menekan profitabilitas.
+4) Replikasi praktik terbaik cabang top 
+   - Terapkan **strategi promosi & pengelolaan cabang** Jawa Barat di **wilayah potensial** seperti Jawa Tengah (Semarang) dan Sulawesi Selatan (Makassar), agar pertumbuhan lebih merata secara nasional.

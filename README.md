@@ -1,6 +1,6 @@
-# 📊 Kimia Farma – Big Data Analytics (2020–2023)
+# Business Performance Analysis for Kimia Farma
 
-## 📝 About the Project
+## About the Project
 Kimia Farma perlu mengevaluasi kinerja bisnis periode **2020–2023** pada level cabang dan produk. Analisis ini mencakup:
 
 - Dampak kebijakan diskon terhadap penjualan dan margin  
@@ -12,7 +12,7 @@ Kimia Farma perlu mengevaluasi kinerja bisnis periode **2020–2023** pada level
 
 ---
 
-## ❓ Problem Statement
+## Problem Statement
 Bagaimana Kimia Farma dapat:  
 1. Memetakan tren penjualan & profitabilitas 2020–2023  
 2. Mengidentifikasi cabang & produk dengan kinerja tertinggi/terendah  
@@ -21,7 +21,7 @@ Bagaimana Kimia Farma dapat:
 
 ---
 
-## 🗂 Dataset
+## Dataset
 Analisis ini menggunakan **4 dataset utama**:
 
 | Dataset           | Deskripsi                                                                 |
@@ -36,13 +36,13 @@ Kolom penting: `transaction_id, branch_name, kota, provinsi, product_name, actua
 
 ---
 
-## ⚙️ Data Processing (BigQuery)
+##  Data Processing (BigQuery)
 - **CREATE TABLE** → Membuat tabel utama `analysis_table`  
 - **CTE (Common Table Expression)** → Hitung persentase laba kotor & nett sales  
 - **CASE WHEN** → Tentukan % gross laba berdasarkan range harga produk  
 - **JOIN** → Gabungkan data cabang & produk berdasarkan `branch_id` & `product_id`  
 
-📌 Contoh potongan SQL:
+Contoh potongan SQL:
 ```sql
 CASE
     WHEN price <= 50000 THEN 0.10
@@ -55,13 +55,13 @@ END AS persentase_gross_laba
 
 ---
 
-## 📊 Dashboard Performance Analytics
+## Dashboard Performance Analytics
 <img width="1148" height="1199" alt="Screenshot 2025-08-28 100931" src="https://github.com/user-attachments/assets/f6a6f0a2-c685-4180-adba-f45442934eef" />
 
 
 ---
 
-## 🔍 **Insights Deep Dive**
+## **Insights Deep Dive**
 ### 🔹 **Sales & Transactions**
 
 - Penjualan: ±Rp321 miliar
@@ -93,7 +93,7 @@ Pertumbuhan penjualan didorong oleh jumlah transaksi, bukan nilai per transaksi.
 
 ---
 
-## 💡 **Business Recommendations**
+## **Business Recommendations**
 
 1) Tingkatkan pengalaman checkout
    - Kurangi antrean dengan **menambah jalur pembayaran**, sediakan opsi pembayaran **digital/e-wallet**, serta buat **label harga & diskon lebih jelas** di cabang bertransaksi tinggi seperti **Jawa Barat** dan **Sumatera Utara**.

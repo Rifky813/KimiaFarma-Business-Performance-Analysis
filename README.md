@@ -1,3 +1,5 @@
+<img width="620" height="430" alt="image" src="https://github.com/user-attachments/assets/9129f166-7ab5-40c6-b5b2-9d654301f3aa" />
+
 # Business Performance Analysis for Kimia Farma
 
 ## About the Project

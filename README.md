@@ -58,7 +58,7 @@ END AS persentase_gross_laba
 ---
 
 ## Dashboard Performance Analytics
-<img width="1148" height="1199" alt="Screenshot 2025-08-28 100931" src="https://github.com/user-attachments/assets/f6a6f0a2-c685-4180-adba-f45442934eef" />
+<img width="1611" height="905" alt="Screenshot 2025-10-19 002246" src="https://github.com/user-attachments/assets/c4da0a28-9862-46d8-85e3-a90547f32c5c" />
 
 
 ---
